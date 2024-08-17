@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Global scrollbar styles */
+html {
+  --scrollbarBG: #fff;
+  --thumbBG: #ccc;
+
+  /* Toast Variables */
+  --toastBackground: black;
+  --toastColor: #fff;
+  --toastBarBackground: black;
+  --toastBorderRadius: 5px;
+  --toastBarHeight: 0;
+  --toastBtnContent: '';
+  --toastBtnWidth: 0px;
+  --toastWidth: fit-content;
+  --toastMsgPadding: 0.25rem 1rem;
+  --toastMinHeight: fit-content;
+  --toastHeight: fit-content;
+  /* Toast Button */
+  --toastContainerTop: auto;
+  --toastContainerRight: auto;
+  --toastContainerBottom: 8rem;
+  --toastContainerLeft: calc(50vw - 8rem);
+
+  scroll-behavior: smooth;
+}
+
+.failed {
+  --toastBackground: red;
+}
+._toastMsg {
+  font-weight: 600;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 10px;
+  border: 2px solid var(--scrollbarBG);
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.shepherd-header {
+  padding: 0.5rem;
+  border-bottom: 4px solid rgb(229 231 235);
+}
+
+.shepherd-text {
+  padding: 1rem;
+}
+
+.shepherd-footer {
+  padding: 1rem;
+  border-top: 4px solid rgb(229 231 235);
+}
+
+.shepherd-cancel-icon {
+  background-color: rgb(229 231 235);
+  padding: 0.1rem 0.55rem;
+  border-radius: 50px;
+}
+
+.shepherd-modal-overlay-container {
+  display: none;
+}

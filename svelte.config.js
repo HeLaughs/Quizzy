@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+// import { SupabaseClient } from '@supabase/supabase-js';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,3 +17,9 @@ const config = {
 };
 
 export default config;
+/*
+ supabase: {
+    url: 'https://uycsfxoytzapbjrkvsck.supabase.co',
+    key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV5Y3NmeG95dHphcGJqcmt2c2NrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjM4MDg0NDcsImV4cCI6MjAzOTM4NDQ0N30.dtBxOUlk8ZDbYKNCfk1IfD89HILlw-PGWMcxfTI12Zk',
+  },
+}); */
