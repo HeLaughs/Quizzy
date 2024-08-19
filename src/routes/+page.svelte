@@ -74,7 +74,7 @@
       { id: TemplateId.spaceFlight, text: 'About Spaceflight' },
       { id: TemplateId.oop, text: 'On OOP' },
       { id: TemplateId.elonMusk, text: 'Elon Musk' },
-      { id: TemplateId.election, text: 'Nigerian 2023 Election' },
+      { id: TemplateId.edTech, text: 'Software role in edTech' },
       { id: TemplateId.chatGPT, text: 'ChatGPT - AI chat bot' },
     ];
     let templateId: TemplateId = templates[0].id || TemplateId.oop;
@@ -171,7 +171,7 @@
       }, 500);
     };
   
-    const getShowConitueTyping = (isLoading: boolean, data: QData[]): boolean => {
+    const getShowContinueTyping = (isLoading: boolean, data: QData[]): boolean => {
       return (
         !isLoading &&
         data.length > 0 &&
@@ -200,7 +200,7 @@
         rawDiv.scrollTop = rawDiv.scrollHeight;
       }
   
-      showContinueTyping = getShowConitueTyping($isLoading, data);
+      showContinueTyping = getShowContinueTyping($isLoading, data);
     }
   </script>
   

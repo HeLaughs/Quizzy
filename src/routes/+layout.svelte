@@ -136,7 +136,7 @@
   
       <SideNavItems>
         <div class="px-3">
-          <p class="text-sm mb-2">Quizzes</p>
+          <p class="text-sm mb-2">Quiz</p>
         </div>
         {#each quizTopics as topic}
           <SideNavLink
