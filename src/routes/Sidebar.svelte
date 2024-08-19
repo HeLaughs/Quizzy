@@ -10,7 +10,7 @@
     import { getAppSettings, PLAN } from '$lib/utils/settings';
     import ProBadge from './ProBadge.svelte';
     import AiIcon from '$lib/images/ai.svg?raw';
-    import ArrowRightcon from '$lib/images/arrow-right.svg?raw';
+    import ArrowRightIcon from '$lib/images/arrow-right.svg?raw';
     import ArrowDownIcon from '$lib/images/arrow-down.svg?raw';
     import type { TemplateId, Templates } from '$lib/types/template';
     import { Circle3 } from 'svelte-loading-spinners';
@@ -107,7 +107,7 @@
             {#if showExamples}
               {@html ArrowDownIcon}
             {:else}
-              {@html ArrowRightcon}
+              {@html ArrowRightIcon}
             {/if}
           </button>
           {#if showExamples}
