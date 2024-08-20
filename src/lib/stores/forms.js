@@ -1,3 +1,4 @@
+// jshint esversion: 6
 import { writable } from 'svelte/store';
 
 export const form = writable({

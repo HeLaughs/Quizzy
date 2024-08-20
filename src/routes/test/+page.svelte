@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
   import { useChat } from 'ai/svelte';
 
   const { input, handleSubmit, messages } = useChat();
@@ -17,4 +17,4 @@
     />
     <button type="submit" class="border border-gray-200">Send</button>
   </form>
-</div> -->
+</div>
