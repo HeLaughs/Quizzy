@@ -43,6 +43,7 @@
 		"carbon-components-svelte": "^0.85.2",
 		"carbon-icons-svelte": "^12.10.0",
 		"copy-html-to-clipboard": "^4.0.1",
+		"dotenv": "^16.4.5",
 		"openai-edge": "^1.2.2",
 		"posthog-js": "^1.155.4",
 		"shepherd.js": "^13.0.3",
