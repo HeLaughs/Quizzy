@@ -1,4 +1,4 @@
-// @ts-nocheck
+
 
 /**
  *  Sign in the user upon button click.

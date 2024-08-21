@@ -46,6 +46,7 @@
 		"dotenv": "^16.4.5",
 		"openai-edge": "^1.2.2",
 		"posthog-js": "^1.155.4",
+		"punycode": "^2.3.1",
 		"shepherd.js": "^13.0.3",
 		"svelte-codemirror-editor": "^1.4.0",
 		"svelte-loading-spinners": "^0.3.6"

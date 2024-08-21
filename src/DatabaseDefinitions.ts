@@ -1,10 +1,10 @@
-export type Json =
+ export type Json =
   | string
   | number
   | boolean
   | null
   | { [key: string]: Json | undefined }
-  | Json[]
+  | Json[] 
 
 export interface Database {
   public: {
@@ -38,4 +38,4 @@ export interface Database {
       [_ in never]: never
     }
   }
-}
+} 

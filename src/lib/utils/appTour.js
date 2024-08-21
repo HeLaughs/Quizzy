@@ -1,6 +1,5 @@
 import Shepherd from 'shepherd.js';
 
-// @ts-ignore
 function generateFormTour(tour) {
   tour.addStep({
     id: 'example-step',
@@ -39,8 +38,10 @@ export function initTour() {
     },
   });
 
-  // @ts-ignore
-  // generateFormTour(tour);
+  
+   generateFormTour(tour);
 
-  // tour.start();
+   tour.start();
 }
+
+initTour();

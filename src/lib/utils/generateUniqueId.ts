@@ -15,7 +15,7 @@ function getRandomNumber(limit: number): string {
     let id = '';
   
     for (let i = 0; i < idLength; i += 1) {
-      // @ts-ignore
+      // @ts-expect-error mmm
       id += availableChars[getRandomNumber(availableChars.length)];
     }
   
