@@ -48,7 +48,7 @@
 		"dotenv": "^16.4.5",
 		"fast-glob": "^3.3.2",
 		"globby": "^14.0.2",
-		"micromatch": "^4.0.7",
+		"micromatch": "^4.0.8",
 		"openai-edge": "^1.2.2",
 		"or": "^0.2.0",
 		"posthog-js": "^1.155.4",
